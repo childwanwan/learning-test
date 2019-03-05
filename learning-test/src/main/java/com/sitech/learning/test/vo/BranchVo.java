@@ -12,9 +12,9 @@ import java.util.Date;
 
 /**
  * Copyright (C), 2019-2019, XXX有限公司
- * FileName: User
+ * FileName: BranchVo
  * Author:   Childwanwan
- * Date:     2019/3/4 15:16
+ * Date:     2019/3/4 17:52
  * Description:
  * History:
  * <author>          <time>          <version>          <desc>
@@ -24,11 +24,10 @@ import java.util.Date;
 @Accessors(chain = true)                 //链式调用
 @NoArgsConstructor                       //无参构造
 @AllArgsConstructor                      //所以参数构造
-public class UserVo {
+public class BranchVo {
 	@Id
-	private String id;
-	private String userName;
-	private String Password;
-	private Integer role;
-
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+	private String branchName;
+	private Date createTime;
 }

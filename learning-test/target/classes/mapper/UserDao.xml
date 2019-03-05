@@ -4,8 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sitech.learning.test.dao.UserDao">
     <select id="queryUser" resultType="com.sitech.learning.test.vo.UserVo">
-        SELECT   id,user_name,user_password,phone,email,sex,register_time,role_id FROM user
-        ORDER BY id DESC
+        SELECT   id,username,password,role FROM user
     </select>
 
 

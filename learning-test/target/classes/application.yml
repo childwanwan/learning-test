@@ -4,9 +4,9 @@ spring:
   application:
     name: test-service
   datasource:
-    url: jdbc:mysql://172.18.51.179:3307/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
-    username: sonar
-    password: sonar
+    url: jdbc:mysql://120.78.132.185:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123
     hikari:
       maximum-pool-size: 30
       minimum-idle: 10

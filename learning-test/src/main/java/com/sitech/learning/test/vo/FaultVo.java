@@ -12,23 +12,28 @@ import java.util.Date;
 
 /**
  * Copyright (C), 2019-2019, XXX有限公司
- * FileName: User
+ * FileName: FaultVo
  * Author:   Childwanwan
- * Date:     2019/3/4 15:16
+ * Date:     2019/3/4 18:54
  * Description:
  * History:
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-@Data                                    //生成相应的get和set、toString
-@Accessors(chain = true)                 //链式调用
-@NoArgsConstructor                       //无参构造
-@AllArgsConstructor                      //所以参数构造
-public class UserVo {
+@Data
+@Accessors(chain = true)
+@NoArgsConstructor
+@AllArgsConstructor
+public class FaultVo {
 	@Id
 	private String id;
-	private String userName;
-	private String Password;
-	private Integer role;
-
+	private String name;
+	private Date createDate;
+	private String influenceSystem;
+	private Integer branch;
+	private String description;
+	private String username;
+	private Integer status;
+	private String url;
+	private String toUsername;
 }
