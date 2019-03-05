@@ -22,4 +22,19 @@ public interface IUserService {
 	 * @return
 	 */
 	List<UserVo> queryUser();
+
+
+	/**
+	 * 所有项目经理User，返回List<User>
+	 *
+	 * @return
+	 */
+	List<UserVo> queryUserManager();
+
+	/**
+	 * 登入
+	 *
+	 * @return
+	 */
+	UserVo queryUserByLogin(UserVo userVo);
 }

@@ -6,6 +6,7 @@ import com.sitech.learning.test.vo.FaultVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -32,4 +33,36 @@ implements IFaultService {
 	public List<FaultVo> queryFault() {
 		return faultDao.queryFault();
 	}
+
+	@Override
+	public List<FaultVo> queryFaultByPage(Integer first) {
+		return faultDao.queryFaultByPage(first);
+	}
+
+	@Override
+	public int insertFault(FaultVo faultVo) {
+		return faultDao.insertFault(faultVo);
+	}
+
+	@Override
+	public int updateFault(FaultVo faultVo) {
+		return faultDao.updateFault(faultVo);
+	}
+
+	@Override
+	public int updateFaultByCoder(FaultVo faultVo) {
+		return faultDao.updateFaultByCoder(faultVo);
+	}
+
+	@Override
+	public FaultVo queryFaultById(FaultVo faultVo) {
+		return faultDao.queryFaultById(faultVo);
+	}
+
+	@Override
+	public List<FaultVo> queryFaultByCondition(Date dateBegin, Date dateEnd, int branch, String name) {
+		return faultDao.queryFaultByCondition(dateBegin,dateEnd,branch,name);
+	}
+
+
 }

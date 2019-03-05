@@ -19,9 +19,25 @@ import java.util.List;
 @Mapper
 public interface UserDao {
 	/**
-	 * 查询所有User，返回List<User>
+	 * 所有技术User，返回List<User>
 	 *
 	 * @return
 	 */
 	List<UserVo> queryUser();
+
+	/**
+	 * 所有项目经理User，返回List<User>
+	 *
+	 * @return
+	 */
+	List<UserVo> queryUserManager();
+
+	/**
+	 * 登入
+	 *
+	 * @return
+	 */
+	UserVo queryUserByLogin(UserVo userVo);
+
+
 }

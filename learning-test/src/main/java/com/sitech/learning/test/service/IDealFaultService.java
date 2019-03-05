@@ -22,4 +22,37 @@ public interface IDealFaultService {
 	 * @return
 	 */
 	List<DealFaultVo> queryDealFault();
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:转派功能插入相应的数据
+	 * @Para:* @param null
+	 * @data:2019/3/5  14:42
+	 */
+	int insertDealFault(DealFaultVo dealFaultVo);
+
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:转派功能,返回数据到项目经理
+	 * @Para:* @param null
+	 * @data:2019/3/5  14:42
+	 */
+	int updateDealFault(DealFaultVo dealFaultVo);
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:根据fault_id查询
+	 * @Para:* @param null
+	 * @data:2019/3/5  14:42
+	 */
+	List<DealFaultVo> queryDealFaultByFaultId(DealFaultVo dealFaultVo);
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:根据fault_id更新状态
+	 * @Para:* @param null
+	 * @data:2019/3/5  14:42
+	 */
+	int updateDealFaultStatus(DealFaultVo dealFaultVo);
 }

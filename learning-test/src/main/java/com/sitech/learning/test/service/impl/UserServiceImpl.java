@@ -29,4 +29,14 @@ implements IUserService {
 		//System.out.println("userDao:"+userDao.toString());
 		return userDao.queryUser();
 	}
+
+	@Override
+	public List<UserVo> queryUserManager() {
+		return userDao.queryUserManager();
+	}
+
+	@Override
+	public UserVo queryUserByLogin(UserVo userVo) {
+		return userDao.queryUserByLogin(userVo);
+	}
 }

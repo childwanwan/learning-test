@@ -27,8 +27,8 @@ import java.util.Date;
 public class UserVo {
 	@Id
 	private String id;
-	private String userName;
-	private String Password;
+	private String username;
+	private String password;
 	private Integer role;
 
 }

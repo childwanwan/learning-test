@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sitech.learning.test.dao.DealFaultDao">
+    <select id="queryDealFault" resultType="com.sitech.learning.test.vo.DealFaultVo">
+        SELECT   id,fault_id,status,to_username,url,operate_time
+	    FROM deal_fault
+    </select>
+
+    <insert id="insertDealFault" keyProperty="id" keyColumn="id"
+            parameterType="com.sitech.learning.test.vo.DealFaultVo">
+
+        INSERT INTO  deal_fault(id,fault_id,status)
+         VALUES
+        (#{id}, #{faultId},#{status})
+    </insert>
+
+
+    <update id="updateDealFault" parameterType="com.sitech.learning.test.vo.DealFaultVo">
+        UPDATE deal_fault set to_username= #{toUsername},status = #{status},url = #{url},operate_time=#{operateTime}
+        WHERE id = #{id}
+    </update>
+
+    <select id="queryDealFaultByFaultId" resultType="com.sitech.learning.test.vo.DealFaultVo">
+        SELECT   id,fault_id,status,to_username,url,operate_time
+	    FROM deal_fault where fault_id = #{faultId}
+    </select>
+
+    <update id="updateDealFaultStatus" parameterType="com.sitech.learning.test.vo.DealFaultVo">
+        UPDATE deal_fault set status = #{status}
+        WHERE fault_id = #{faultId}
+    </update>
+
+</mapper>

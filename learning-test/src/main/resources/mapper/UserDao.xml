@@ -4,9 +4,16 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sitech.learning.test.dao.UserDao">
     <select id="queryUser" resultType="com.sitech.learning.test.vo.UserVo">
-        SELECT   id,username,password,role FROM user
+        SELECT   id,username,role FROM user where role='2'
     </select>
 
+    <select id="queryUserManager" resultType="com.sitech.learning.test.vo.UserVo">
+        SELECT   id,username,role FROM user where role='1'
+    </select>
+
+    <select id="queryUserByLogin" resultType="com.sitech.learning.test.vo.UserVo">
+        SELECT   id,username,role FROM user where username = #{username} and password = #{password}
+    </select>
 
 
 </mapper>

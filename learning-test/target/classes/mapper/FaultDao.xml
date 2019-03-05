@@ -8,6 +8,52 @@
 	    FROM fault
     </select>
 
+    <select id="queryFaultByPage" resultType="com.sitech.learning.test.vo.FaultVo">
+        select id,name,create_date,influence_system,branch,description,username,status,url,to_username
+        from fault LIMIT #{first},10
+    </select>
+
+
+    <insert id="insertFault" keyProperty="id" keyColumn="id"
+            parameterType="com.sitech.learning.test.vo.FaultVo">
+        INSERT INTO  fault(id,name,create_date,influence_system,branch,description,username,status,url)
+         VALUES
+        (#{id}, #{name},#{createDate}, #{influenceSystem}, #{branch},#{description},#{username},#{status},#{url})
+    </insert>
+
+
+    <update id="updateFault" parameterType="com.sitech.learning.test.vo.FaultVo">
+        UPDATE fault set to_username= #{toUsername},status = #{status}
+
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateFaultByCoder" parameterType="com.sitech.learning.test.vo.FaultVo">
+        UPDATE fault set status = #{status}
+        WHERE id = #{id}
+    </update>
+
+    <select id="queryFaultById" resultType="com.sitech.learning.test.vo.FaultVo">
+        SELECT  id,name,create_date,influence_system,branch,description,username,status,url,to_username
+	    FROM fault where id = #{id}
+    </select>
+    <select id="queryFaultByCondition" resultType="com.sitech.learning.test.vo.FaultVo">
+        SELECT  id,name,create_date,influence_system,branch,description,username,status,url,to_username
+	    FROM fault
+        <where>
+
+            <if test="dateBegin != null and dateEnd != null ">
+                create_date between #{dateBegin} and #{dateEnd}
+            </if>
+            <if test="branch!=null">
+                and branch = #{branch}
+            </if>
+            <if test="name!=null ">
+                and name like CONCAT('%',#{name},'%')
+            </if>
+        </where>
+    </select>
+
 
 
 </mapper>

@@ -29,6 +29,29 @@ public class DealFaultServiceImpl implements IDealFaultService {
 	 */
 	@Override
 	public List<DealFaultVo> queryDealFault() {
+		//System.out.println(dealFaultDao.queryDealFault());
 		return dealFaultDao.queryDealFault();
 	}
+
+	@Override
+	public int insertDealFault(DealFaultVo dealFaultVo) {
+		return dealFaultDao.insertDealFault(dealFaultVo);
+	}
+
+	@Override
+	public int updateDealFault(DealFaultVo dealFaultVo) {
+		return dealFaultDao.updateDealFault(dealFaultVo);
+	}
+
+	@Override
+	public List<DealFaultVo> queryDealFaultByFaultId(DealFaultVo dealFaultVo) {
+		return dealFaultDao.queryDealFaultByFaultId(dealFaultVo);
+	}
+
+	@Override
+	public int updateDealFaultStatus(DealFaultVo dealFaultVo) {
+		return dealFaultDao.updateDealFaultStatus(dealFaultVo);
+	}
+
+
 }
