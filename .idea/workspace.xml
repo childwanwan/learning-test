@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f79fc50d-6ca4-47e9-ac80-e5b2ae15bfea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/form/DealFaultForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/form/FaultForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/utils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1550832937548.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1550835293650.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551350930941.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551351215421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551351328562.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551352395482.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551352733964.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551363475336.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551363814935.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/1551406813057.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_195354.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_200459.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_201546.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_204906.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_212641.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_212724.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_212836.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_214432.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_215339.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_221229.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/img/snipaste_20190305_224009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/前后接口.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/数据前后接口.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-test/前后接口/新需求接口.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/DealFaultAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/DealFaultAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/FaultAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/FaultAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/DealFaultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/DealFaultDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/FaultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/FaultDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IDealFaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IDealFaultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IFaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IFaultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/DealFaultServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/DealFaultServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/FaultServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/FaultServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/resources/mapper/DearFaultDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/resources/mapper/DealFaultDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/resources/mapper/FaultDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/resources/mapper/FaultDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/src/main/resources/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/action/DealFaultAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/action/DealFaultAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/action/FaultAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/action/FaultAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/dao/DealFaultDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/dao/DealFaultDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/dao/FaultDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/dao/FaultDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/IDealFaultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/IDealFaultService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/IFaultService.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/IFaultService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/impl/DealFaultServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/impl/DealFaultServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/impl/FaultServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/impl/FaultServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/com/sitech/learning/test/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/mapper/DearFaultDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/mapper/FaultDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/mapper/FaultDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-test/target/classes/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-test/target/classes/mapper/UserDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/learning-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/FaultVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="504">
               <caret line="26" column="17" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/DealFaultDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="1512">
               <caret line="57" column="55" selection-start-line="51" selection-start-column="4" selection-end-line="57" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/FaultServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="1036">
               <caret line="52" column="33" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/DealFaultVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="644">
               <caret line="31" column="26" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/resources/mapper/DealFaultDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="840">
               <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
             </state>
           </provider>
@@ -144,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/resources/mapper/FaultDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="840">
               <caret line="30" column="34" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
@@ -153,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IDealFaultService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="1512">
               <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -165,14 +106,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/DealFaultServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="1148">
               <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1135#1136#0" expanded="true" />
                 <element signature="e#1190#1191#0" expanded="true" />
                 <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,7 +198,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="515" />
-    <option name="y" value="111" />
+    <option name="y" value="110" />
     <option name="width" value="1260" />
     <option name="height" value="945" />
   </component>
@@ -267,7 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,7 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +230,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551797336777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551797440524" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -299,16 +240,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\resources" />
-      <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\java\com\sitech\learning\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test" />
       <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\java\com\sitech\learning\test\utils" />
       <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\resources\mapper" />
       <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\java\com\sitech\learning\test\vo" />
       <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\java\com\sitech\learning\test\dao" />
-      <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\java\com\sitech\learning\test\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\resources" />
+      <recent name="G:\project\iderProject\SpringBootProject\learning-test\learning-test\src\main\java\com\sitech\learning\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,17 +295,19 @@
       <option name="presentableId" value="Default" />
       <updated>1551682350993</updated>
       <workItem from="1551682371912" duration="22678000" />
-      <workItem from="1551768547370" duration="23195000" />
+      <workItem from="1551768547370" duration="23549000" />
+      <workItem from="1551833411051" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45873000" />
+    <option name="totallyTimeSpent" value="46524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -374,7 +317,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44117647" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44117647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,27 +582,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/FaultVo.java">
+    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/FaultAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="118">
+          <caret line="365" column="37" selection-start-line="365" selection-start-column="37" selection-end-line="365" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test/src/main/resources/mapper/FaultDao.xml">
+    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/FaultVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/FaultServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="504">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -668,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/dao/DealFaultDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="1512">
           <caret line="57" column="55" selection-start-line="51" selection-start-column="4" selection-end-line="57" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -676,9 +612,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/FaultServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/DealFaultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-test/src/main/resources/mapper/DealFaultDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-test/src/main/resources/mapper/FaultDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/IDealFaultService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="1512">
           <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -688,41 +658,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/service/impl/DealFaultServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="1148">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1135#1136#0" expanded="true" />
             <element signature="e#1190#1191#0" expanded="true" />
             <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test/src/main/resources/mapper/DealFaultDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/vo/DealFaultVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning-test/src/main/java/com/sitech/learning/test/action/FaultAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="365" column="37" selection-start-line="365" selection-start-column="37" selection-end-line="365" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
           </folding>
         </state>
       </provider>
