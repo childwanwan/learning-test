@@ -54,6 +54,21 @@
         </where>
     </select>
 
+    <update id="updateFaultById" parameterType="com.sitech.learning.test.vo.FaultVo">
+        UPDATE fault
+        <set>
+        <if test="name!=null ">name=#{name},</if>
+            <if test="createDate!=null ">create_date=#{createDate},</if>
+            <if test="influenceSystem!=null ">influence_system=#{influenceSystem},</if>
+            <if test="branch!=null ">branch=#{branch},</if>
+            <if test="description!=null ">description=#{description},</if>
 
+            <if test="status!=null ">status=#{status},</if>
+            <if test="url!=null ">influence_system=#{url},</if>
+            <if test="toUsername!=null ">to_username=#{toUsername}</if>
+
+        </set>
+        WHERE id = #{id}
+    </update>
 
 </mapper>

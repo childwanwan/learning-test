@@ -330,7 +330,7 @@ public class FaultAction {
 		}else {
 			returnJson.put("code",0);
 			returnJson.put("message","查询不到结果");
-		}
+	}
 		//System.out.println(list);
 		return new ResponseEntity<>(returnJson, HttpStatus.ACCEPTED);
 	}
@@ -374,6 +374,74 @@ public class FaultAction {
 			}
 		}
 
+		return new ResponseEntity<>(returnJson, HttpStatus.ACCEPTED);
+	}
+
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:action的接口函数,根据id查询
+	 * @Para:* @param id
+	 * @data:2019/2/28  10:29
+	 */
+	@RequestMapping(value = "/fault/select_fault_by_id", method = RequestMethod.GET)
+	public ResponseEntity<JSONObject> selectFaultById(@RequestParam("id") String id) {
+		System.out.println(id);
+		JSONObject returnJson = new JSONObject();
+		FaultVo faultVo = new FaultVo();
+		faultVo.setId(id);
+		FaultVo returnfaultVo = faultService.queryFaultById(faultVo);
+		if(returnfaultVo!=null){
+			returnJson.put("code",1);
+			returnJson.put("message","获取数据成功");
+			returnJson.put("data",returnfaultVo);
+		}else {
+			returnJson.put("code",0);
+			returnJson.put("message","获取数据失败");
+		}
+		return new ResponseEntity<>(returnJson, HttpStatus.ACCEPTED);
+	}
+
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:根据id插入数据
+	 * @Para:* @param null
+	 * @data:2019/3/6  11:06
+	 */
+	@Transactional
+	@RequestMapping(value = "/fault/update_fault", method = RequestMethod.POST)
+	public ResponseEntity<JSONObject> updateError(@RequestBody JSONObject jsonObject) {
+		System.out.println(jsonObject);
+
+		JSONArray jsonArrayParam = jsonObject.getJSONArray("influenceSystem");
+
+		//返回的数据
+		JSONObject returnJson = new JSONObject();
+
+
+		//初始化数据
+		FaultVo faultVo = new FaultVo();
+		faultVo.setName(jsonObject.get("name").toString());
+		faultVo.setCreateDate(new Date(Long.valueOf(jsonObject.get("createDate").toString())));
+		faultVo.setBranch((int) jsonObject.get("branch"));
+		faultVo.setDescription(jsonObject.get("description").toString());
+		faultVo.setInfluenceSystem(jsonObject.get("influenceSystem").toString());
+		faultVo.setUsername(jsonObject.get("username").toString());
+		//faultVo.setStatus(1);
+		faultVo.setId(jsonObject.get("id").toString());
+		try {
+			if (faultService.updateFaultById(faultVo) > 0) {
+				returnJson.put("code", 1);
+				returnJson.put("message", "修改数据成功");
+			} else {
+				returnJson.put("code", 0);
+				returnJson.put("message", "插入数据失败");
+			}
+		} catch (Exception e) {
+			returnJson.put("code", -1);
+			returnJson.put("message", "系统内部异常");
+		}
 		return new ResponseEntity<>(returnJson, HttpStatus.ACCEPTED);
 	}
 }

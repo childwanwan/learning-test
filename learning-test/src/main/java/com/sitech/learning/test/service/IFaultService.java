@@ -73,4 +73,12 @@ public interface IFaultService {
 	 */
 	List<FaultVo> queryFaultByCondition(Date dateBegin, Date dateEnd,
 										int branch, String name);
+
+	/*
+	 * @Author:Childwanwan
+	 * @Description:根据id更新对象
+	 * @Para:* @param null
+	 * @data:2019/3/5  14:42
+	 */
+	int updateFaultById(FaultVo faultVo);
 }

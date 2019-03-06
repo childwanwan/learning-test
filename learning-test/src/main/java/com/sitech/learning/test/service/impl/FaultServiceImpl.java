@@ -64,5 +64,10 @@ implements IFaultService {
 		return faultDao.queryFaultByCondition(dateBegin,dateEnd,branch,name);
 	}
 
+	@Override
+	public int updateFaultById(FaultVo faultVo) {
+		return faultDao.updateFaultById(faultVo);
+	}
+
 
 }
